@@ -1,0 +1,76 @@
+﻿<Window x:Class="ex03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="450">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="739" VerticalAlignment="Top" Width="584" Source="/capsule corp.png"/>
+        <Button HorizontalAlignment="Left" Height="48" Margin="19,10,0,0" VerticalAlignment="Top" Width="45">
+            <Image Height="43" Width="48" Source="/vege.png"/>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="732" VerticalAlignment="Top" Width="447" Source="/Prova sesio 2;component/capsule corp.png" Margin="3,0,0,0" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.094"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.598"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button HorizontalAlignment="Left" Margin="31,240,0,0" VerticalAlignment="Top" Height="62" Width="67">
+            <Image Height="62" Width="69" Source="/rojo.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="103,271,0,0" VerticalAlignment="Top" Height="62" Width="67">
+            <Image Height="62" Width="69" Source="/azul.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="189,302,0,0" VerticalAlignment="Top" Height="62" Width="66">
+            <Image Height="62" Width="68" Source="/verde.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="271,294,0,0" VerticalAlignment="Top" Height="62" Width="67">
+            <Image Height="61" Width="65" Source="/morado.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="356,271,0,0" VerticalAlignment="Top" Height="62" Width="67">
+            <Image Height="62" Width="70" Source="/rojo.png"/>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="59" Margin="76,172,0,0" VerticalAlignment="Top" Width="66" Source="/verde.png"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="146,200,0,0" VerticalAlignment="Top" Width="66" Source="/azul.png"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="225,212,0,0" VerticalAlignment="Top" Width="66" Source="/rojo.png"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="294,200,0,0" VerticalAlignment="Top" Width="66" Source="/verde.png"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="366,186,0,0" VerticalAlignment="Top" Width="57" Source="/morado.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="76,129,0,0" VerticalAlignment="Top" Width="43" Source="/morado.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="136,132,0,0" VerticalAlignment="Top" Width="44" Source="/morado.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="186,147,0,0" VerticalAlignment="Top" Width="43" Source="/verde.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="237,165,0,0" VerticalAlignment="Top" Width="43" Source="/azul.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="305,147,0,0" VerticalAlignment="Top" Width="43" Source="/rojo.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="365,132,0,0" VerticalAlignment="Top" Width="42" Source="/morado.png"/>
+        <Image HorizontalAlignment="Left" Height="196" Margin="76,356,0,0" VerticalAlignment="Top" Width="100" Source="/koku.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="253,34,0,0" VerticalAlignment="Top" Width="100" Source="/vegeta.png"/>
+        <Button HorizontalAlignment="Left" Margin="298,644,0,0" VerticalAlignment="Top" Height="30" Width="40">
+            <Image Height="30" Width="33" Source="/item.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="318,517,0,0" VerticalAlignment="Top" Height="48" Width="53">
+            <Image Height="43" Width="56" Source="/goku_bola.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="196,532,0,0" VerticalAlignment="Top" Height="48" Width="52">
+            <Image Height="44" Width="52" Source="/bola.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="64,551,0,0" VerticalAlignment="Top" Height="48" Width="52">
+            <Image Height="44" Width="48" Source="/bola.png"/>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="43" Margin="42,613,0,0" VerticalAlignment="Top" Width="189" RenderTransformOrigin="0.5,0.5" Source="/via1.png">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.899"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.784"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Window>
